@@ -1,11 +1,11 @@
 ---
 layout: post
-author: oserh
+author: OSer Huang
 title: 如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译)
 ---
-# 如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译）
+<!-- # 如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译） -->
 
-<font size=2>原文地址：[<font color=#0099ff>https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04</font>](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)</font>
+原文地址：[https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)
 
 ![HowToSetUpDjango][1]
 
@@ -481,9 +481,10 @@ $ sudo ufw allow 'Nginx Full'
 
 现在你可以通过域名和IP地址访问你的网站。
 
-<font size=2>原文地址：[<font color=#0099ff>https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04</font>](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)</font>
+原文地址：[https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16:-04)
 
-[1]: ./How_To_Set_Up_Django_with_Postgres_Nginx_and_Gunicorn_on_Ubuntu_16.04.png
-[2]: ./django_index.png
-[3]: ./admin_login.png
-[4]: ./admin_interface.png
+
+[1]: /images/blog/2018-03-04-HowToSetDjango/How_To_Set_Up_Django_with_Postgres_Nginx_and_Gunicorn_on_Ubuntu_16.04.png
+[2]: /images/blog/2018-03-04-HowToSetDjango/django_index.png
+[3]: /images/blog/2018-03-04-HowToSetDjango/admin_login.png
+[4]: /images/blog/2018-03-04-HowToSetDjango/admin_interface.png

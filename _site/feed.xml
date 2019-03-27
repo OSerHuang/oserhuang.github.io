@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-27T10:40:11+01:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译)</title><link href="http://localhost:4000/2018/03/04/HowToSetDjango.html" rel="alternate" type="text/html" title="如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译)" /><published>2018-03-04T00:00:00+01:00</published><updated>2018-03-04T00:00:00+01:00</updated><id>http://localhost:4000/2018/03/04/HowToSetDjango</id><content type="html" xml:base="http://localhost:4000/2018/03/04/HowToSetDjango.html">&lt;h1 id=&quot;如何在ubuntu1604上通过nginx和gunicorn部署django译&quot;&gt;如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译）&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-27T16:17:26+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">OSer Huang</title><subtitle>Programmer From Somewhere On Earth</subtitle><entry><title type="html">如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译)</title><link href="http://localhost:4000/HowToSetDjango/" rel="alternate" type="text/html" title="如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译)" /><published>2018-03-04T00:00:00+01:00</published><updated>2018-03-04T00:00:00+01:00</updated><id>http://localhost:4000/HowToSetDjango</id><content type="html" xml:base="http://localhost:4000/HowToSetDjango/">&lt;!-- # 如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译） --&gt;
 
-&lt;p&gt;&amp;lt;font size=2&amp;gt;原文地址：&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04&quot;&gt;&amp;lt;font color=#0099ff&amp;gt;https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04&amp;lt;/font&amp;gt;&lt;/a&gt;&amp;lt;/font&amp;gt;&lt;/p&gt;
+&lt;p&gt;原文地址：&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04&quot;&gt;https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./How_To_Set_Up_Django_with_Postgres_Nginx_and_Gunicorn_on_Ubuntu_16.04.png&quot; alt=&quot;HowToSetUpDjango&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/2018-03-04-HowToSetDjango/How_To_Set_Up_Django_with_Postgres_Nginx_and_Gunicorn_on_Ubuntu_16.04.png&quot; alt=&quot;HowToSetUpDjango&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;简介&quot;&gt;简介&lt;/h3&gt;
 
@@ -230,11 +230,11 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;你应该能看到Django默认的索引页：
-&lt;img src=&quot;./django_index.png&quot; alt=&quot;django_index&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/blog/2018-03-04-HowToSetDjango/django_index.png&quot; alt=&quot;django_index&quot; /&gt;&lt;br /&gt;
 在网页URL后面添加&lt;code&gt;/admim&lt;/code&gt;，你将会转到管理员登录界面。你可以输入之前&lt;code&gt;/createsuperuser&lt;/code&gt;命令所设置的用户名和密码来登录：
-&lt;img src=&quot;./admin_login.png&quot; alt=&quot;admin_login&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/blog/2018-03-04-HowToSetDjango/admin_login.png&quot; alt=&quot;admin_login&quot; /&gt;&lt;br /&gt;
 登录之后，你就能看到Django默认的管理界面了：
-&lt;img src=&quot;./admin_interface.png&quot; alt=&quot;admin_interface&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/blog/2018-03-04-HowToSetDjango/admin_interface.png&quot; alt=&quot;admin_interface&quot; /&gt;&lt;br /&gt;
 等你玩够了之后，在终端中输入&lt;strong&gt;CTRL-C&lt;/strong&gt;关闭服务器。&lt;/p&gt;
 
 &lt;h3 id=&quot;测试gunicorn伺服功能&quot;&gt;测试Gunicorn伺服功能&lt;/h3&gt;
@@ -444,4 +444,4 @@ server {
 
 &lt;p&gt;现在你可以通过域名和IP地址访问你的网站。&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;font size=2&amp;gt;原文地址：&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04&quot;&gt;&amp;lt;font color=#0099ff&amp;gt;https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04&amp;lt;/font&amp;gt;&lt;/a&gt;&amp;lt;/font&amp;gt;&lt;/p&gt;</content><author><name>oserh</name></author><summary type="html">如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译）</summary></entry></feed>
+&lt;p&gt;原文地址：&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16:-04&quot;&gt;https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04&lt;/a&gt;&lt;/p&gt;</content><author><name>OSer Huang</name></author><summary type="html"></summary></entry></feed>
