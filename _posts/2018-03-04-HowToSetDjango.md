@@ -1,7 +1,7 @@
 ---
 layout: post
 author: OSer Huang
-title: 如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译)
+title: 如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译）
 comments: true
 ---
 <!-- # 如何在Ubuntu16.04上通过Nginx和Gunicorn部署Django（译） -->
